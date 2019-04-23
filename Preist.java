@@ -1,9 +1,9 @@
-package hearthstrone;
+package hearthstone;
 
-public class Preist extends Hero{
+public class Priest extends Hero{
 
     //constructor
-    public Preist(int h, String hp){
+    public Priest(int h, String hp){
         super(h, hp);
     }
     
