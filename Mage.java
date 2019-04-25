@@ -1,4 +1,4 @@
-package hearthstrone;
+package hearthstone;
 
 public class Mage extends Hero{
 
@@ -7,7 +7,7 @@ public class Mage extends Hero{
     }
 
     public int[] heroPower() {//Hero 3, dmg 1
-        int arr[] = {3, 1};
+        int[] arr = {3, 1};
         return arr;
     }
 }

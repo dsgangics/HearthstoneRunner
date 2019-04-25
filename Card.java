@@ -19,9 +19,16 @@ public class Card extends gameDeck{
         taunt = tauntCondition;
         imagePath = image;
         BufferedImage cardImg = null;
-        cardImg= ImageIO.read((new File(image)));
+        //cardImg = ImageIO.read((new File(image)));
     }
-
+    
+    public Card(){
+        name = "";
+        hp = 0;
+        attack = 0;
+        taunt = false;
+        imagePath = "";
+    }
     public String getName() {
         return name;
     }

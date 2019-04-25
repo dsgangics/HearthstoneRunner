@@ -8,7 +8,7 @@ public class Warrior extends Hero{
     }
     
     public int[] heroPower(){//Hero 8, Amour 2
-        int arr[] = {8, 2};
+        int[] arr = {8, 2};
         return arr;       
     }
 }

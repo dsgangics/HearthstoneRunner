@@ -1,4 +1,4 @@
-package hearthstrone;
+package hearthstone;
 
 public class Paladin extends Hero{
     
@@ -8,7 +8,7 @@ public class Paladin extends Hero{
     }
     
     public int[] heroPower(){//Hero 4
-        int arr[] = {4};
+        int[] arr = {4};
         return arr;       
     }
 }

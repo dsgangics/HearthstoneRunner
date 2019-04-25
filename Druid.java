@@ -7,7 +7,7 @@ public class Druid extends Hero{
     }
     
     public int[] heroPower(){//Hero 1, Amour 1, Face Atk 1
-        int arr[] = {1, 1, 1};
+        int[] arr = {1, 1, 1};
         return arr;       
     }
 }
